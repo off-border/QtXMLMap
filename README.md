@@ -27,7 +27,7 @@ QtXMLMap
                                            with correspond tag names.<br>
                                            Returns found nodes as children of new QtXMLMap entity.<br>
                                            To access children use $("tagname.")->c;<br>
-                                           (one * symbol. github is gad guy)
+                                           (one * symbol. github is a bad guy)
   <br>
    myxmlmap->$("@attrname")               -   All the same like in "tagname" case but for an attribute<br>
    myxmlmap->$("@attrname.")              -   All the same like in "tagname" case but for an attribute<br>
