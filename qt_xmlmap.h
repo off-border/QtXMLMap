@@ -63,7 +63,6 @@
  *
  * AND...
  * sorry my English :)
- * it will be improoved too in next versions of My :)
  *
  * */
 
