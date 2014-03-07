@@ -1,4 +1,3 @@
-
 QtXMLMap
 ========
 
@@ -24,10 +23,11 @@ QtXMLMap
                                            Returns found nodes as children of new QtXMLMap entity.<br>
                                            To access children use $("tagname.")->c;<br>
   <br>
-   myxmlmap->$("tagname*")                -   Search all children in the tree from the current node<br>
+   myxmlmap->$("tagname**")                -   Search all children in the tree from the current node<br>
                                            with correspond tag names.<br>
                                            Returns found nodes as children of new QtXMLMap entity.<br>
                                            To access children use $("tagname.")->c;<br>
+                                           (one * symbol. github is gad guy)
   <br>
    myxmlmap->$("@attrname")               -   All the same like in "tagname" case but for an attribute<br>
    myxmlmap->$("@attrname.")              -   All the same like in "tagname" case but for an attribute<br>
