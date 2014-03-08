@@ -10,7 +10,8 @@ QtXMLMap
   CREATING a new XML map:<br>
   <br>
   QtXMLMap *myxmlmap = new QtXMLMap("../path/to/../file.xml")<br>
-       OR  *myxmlmap = new QtXMLMap(QDomNode myNode);<br>
+       OR  <br>
+  QtXMLMap *myxmlmap = new QtXMLMap(QDomNode myNode);<br>
   <br>
   <br>
   NAVIGATE:<br>
