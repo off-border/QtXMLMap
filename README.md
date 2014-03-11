@@ -43,11 +43,11 @@ QtXMLMap
   <br>
    You can search recursively:<br>
   <br>
-   myxmlmap->$("tagnameq1")->$("tagname2.")->$("@attrname=attrvalue*").e.text()<br>
+   myxmlmap->$("tagnameq1")->$("tagname2.")->$("@attrname=attrvalue*").c.at(0).e.text()<br>
   <br>
    Or even that way:<br>
   <br>
-   myxmlmap->$("tagname1>tagname2.>@attrname=attrvalue*").e.text()<br>
+   myxmlmap->$("tagname1>tagname2.>@attrname=attrvalue*").c.length()<br>
   <br>
    Very simple! Isn't it? :)<br>
   <br>
@@ -55,7 +55,7 @@ QtXMLMap
   <br>
    myxmlmap.n  - QDomNode of current QtXMLMap node.<br>
    myxmlmap.e  - QDomElsment of current QtXMLMap node.<br>
-   myxmlmap.c  - QList<QtXMLMap*> children list of current QtXMLMap node.<br>
+   myxmlmap.c  - QList<QtXMLMap*> children list of current QtXMLMap node or all found nodes<br>
   <br>
   <br>
   INSTALLATION:<br>
